@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("hello bro")
 
+def work(request):
+    return HttpResponse("harshal")
